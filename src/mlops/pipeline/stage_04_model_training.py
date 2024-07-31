@@ -1,6 +1,6 @@
-from mlflow.config.configuration import ConfigurationManager
-from mlflow.components.model_trainer import ModelTrainer
-from mlflow import logger 
+from mlops.config.configuration import ConfigurationManager
+from mlops.components.model_trainer import ModelTrainer
+from mlops import logger 
 
 STAGE_NAME = "Model Trainer Stage"
 

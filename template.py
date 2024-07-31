@@ -4,7 +4,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(message)s:')
-project_name = 'mlflow'
+project_name = 'mlops'
 print("Imported.")
 files_list = [
     ".github/workflows/.gitkeep",

@@ -1,10 +1,10 @@
 import pandas as pd
 import os 
 
-from mlflow import logger 
+from mlops import logger 
 from sklearn.linear_model import ElasticNet
 import joblib
-from mlflow.entity.config_entity import ModelTrainerConfig
+from mlops.entity.config_entity import ModelTrainerConfig
 
 class ModelTrainer:
     def __init__(self,config:ModelTrainerConfig):

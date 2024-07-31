@@ -1,6 +1,6 @@
 import os
-from mlflow import logger 
-from mlflow.entity.config_entity import DataValidationConfig
+from mlops import logger 
+from mlops.entity.config_entity import DataValidationConfig
 import pandas as pd
 class DataValidation:
     def __init__(self, config: DataValidationConfig):

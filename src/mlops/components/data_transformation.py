@@ -1,8 +1,8 @@
-from mlflow import logger 
+from mlops import logger 
 from sklearn.model_selection import train_test_split
 import pandas as pd 
 import os
-from mlflow.entity.config_entity import DataTransformationConfig
+from mlops.entity.config_entity import DataTransformationConfig
 
 class DataTransformation:
     def __init__(self,config:DataTransformationConfig):

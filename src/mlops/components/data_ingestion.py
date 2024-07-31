@@ -1,10 +1,10 @@
 import os 
 import urllib.request as request
 import zipfile
-from mlflow import logger
-from mlflow.utils.common import get_size
+from mlops import logger
+from mlops.utils.common import get_size
 from pathlib import Path
-from mlflow.entity.config_entity import (DataIngestionConfig)
+from mlops.entity.config_entity import (DataIngestionConfig)
 
 class DataIngestion:
     def __init__(self,config:DataIngestionConfig):

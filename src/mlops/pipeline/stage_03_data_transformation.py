@@ -1,6 +1,6 @@
-from mlflow.config.configuration import ConfigurationManager
-from mlflow.components.data_transformation import DataTransformation
-from mlflow import logger
+from mlops.config.configuration import ConfigurationManager
+from mlops.components.data_transformation import DataTransformation
+from mlops import logger
 from pathlib import Path
 
 STAGE_NAME = "Data Transformation Stage"
